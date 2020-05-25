@@ -1,0 +1,13 @@
+.mainClass {
+	height: 400px;
+	padding-top: 20px;
+}
+
+.myBoard {
+	display: flex;
+	justify-content: center;
+}
+
+.myStatusClass {
+	margin-top: 20px;
+}

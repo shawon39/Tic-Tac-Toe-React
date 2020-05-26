@@ -9,9 +9,9 @@ class StatusComp extends Component {
 					{this.props.myState.isEndGame !== true ? (
 						<p>Next Mark : Player {this.props.myState.playerMove}</p>
 					) : (this.props.myState.winner === "!" ? (
-						<p>Match Tied !!!</p>
+						<p>Match Tied !</p>
 					) : (
-						<p>{this.props.myState.winner} Won The Match</p>
+						<p>{this.props.myState.winner} Won The Match !</p>
 					))}
 				</div>
 			</div>
